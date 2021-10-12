@@ -9,7 +9,7 @@ const Navbar = () => {
         <h1>Mar Cortina</h1>
       </div>
       <div className={Styles.dataList}>
-        {/* <div className={Styles.itemList}>
+        <div className={Styles.itemList}>
           <Link to="/">Home</Link>
         </div>
         <div className={Styles.itemList}>
@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         <div className={Styles.itemList}>
           <Link to="/contact">Contact</Link>
-        </div> */}
+        </div>
       </div>
     </div>
   );

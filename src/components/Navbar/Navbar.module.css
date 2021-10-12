@@ -6,23 +6,25 @@
     padding: 0px 20px;
     margin: 0 auto;
     background-color: #596275;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.dataList{
+.dataList {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 50%;
-
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 0 10px 0;
 }
 
-.nameTitle{
-    width: 50%;
-    font-size: 1rem;
+.nameTitle {
+    width: 100%;
+    font-size: 1em;
     font-weight: bold;
     color: #fff;
-
 }
-.itemList{
+
+.itemList {
     font-size: 1em;
 }
