@@ -1,0 +1,19 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0 auto;
+    background-color: #596275;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dataList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
