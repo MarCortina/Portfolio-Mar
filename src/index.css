@@ -25,5 +25,19 @@ code {
 
 a {
   color: #c44569;
+  font-weight: 300;
+  background-color: #303952;
+  text-decoration: none;
+  /* border-bottom: 1px solid #c44569; */
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  width: max-content;
+  border-radius: 5px;
+  border: none;
+  padding: 2px 5px;
+}
+
+a:hover {
   font-weight: 500;
+  border: 2px solid #c44569;
 }
