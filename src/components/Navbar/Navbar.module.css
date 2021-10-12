@@ -1,8 +1,6 @@
 .navbarContainer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
     width: 100%;
     padding: 0px 20px;
     margin: 0 auto;
@@ -14,6 +12,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 50%;
 
+}
+
+.nameTitle{
+    width: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+
+}
+.itemList{
+    font-size: 1em;
 }
