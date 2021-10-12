@@ -9,16 +9,16 @@ import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <Layout>
-        <Switch>
+    <Layout>
+        {/* <div className="App"> */}
+        {/* <Switch> */}
         <Route exact path="/" render={() => <Home />} />
         <Route exact path="/projects" render={() => <Projects />} />
         <Route exact path="/about" render={() => <About />} />
         <Route exact path="/contact" render={() => <Contact />} />
-        </Switch>
+        {/* </Switch> */}
+    {/* </div> */}
       </Layout>
-    </div>
   );
 }
 

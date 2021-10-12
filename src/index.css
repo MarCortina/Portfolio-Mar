@@ -5,9 +5,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #303952;
   min-height: 100vh;
+  max-width: 1440px;
   /* min-width: 100vh; */
-  display: flex;
-  justify-content: center; 
+  /* display: flex;
+  justify-content: center;  */
   /* 
   flex-direction: column;
   */
