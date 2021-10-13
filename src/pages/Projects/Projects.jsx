@@ -22,10 +22,10 @@ const Projects = () => {
         <LandingComic />
         <TailwindTuto />
         <TechoAdmin />
-        <ElMayorista />
-        <Spirit />
         <TechoLapse />
+        <Spirit />
         <Axies />
+        <ElMayorista />
         <ChallengeALkemy />
       </div>
     </div>
