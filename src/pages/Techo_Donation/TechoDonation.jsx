@@ -18,7 +18,6 @@ const TechoDonation = () => {
           playsInline
         ></video>
         {/* <Link to="/"> */}
-        <button className={Styles.button}>Back</button>
         <a className={Styles.linkVideo} href="https://donar.techo.org.ar/">
           <span className={Styles.linkVideo}>visit the web</span>
         </a>
