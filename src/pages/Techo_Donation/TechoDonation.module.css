@@ -1,0 +1,10 @@
+.video {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.linkVideo {
+    font-size: 0.8em;
+}
