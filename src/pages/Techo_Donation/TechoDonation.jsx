@@ -17,9 +17,12 @@ const TechoDonation = () => {
           muted
           playsInline
         ></video>
-        <Link className={Styles.linkVideo} to="https://donar.techo.org.ar/?gclid=CjwKCAjwmK6IBhBqEiwAocMc8jBIiIX8Lu83Sz8v3qCTihRt0omgSgPCdNw6HLmKWamVhb-Ti68a5hoCvrkQAvD_BwE">
-        <span className={Styles.linkVideo}>visit the web</span>
-        </Link>
+        {/* <Link to="/"> */}
+        <button className={Styles.button}>Back</button>
+        <a className={Styles.linkVideo} href="https://donar.techo.org.ar/">
+          <span className={Styles.linkVideo}>visit the web</span>
+        </a>
+        {/* </Link> */}
       </Window>
     </div>
   );
