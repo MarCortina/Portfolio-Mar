@@ -15,6 +15,7 @@ const TailwindTuto = () => {
           src={TailwindVideo}
           autoPlay
           loop
+          muted
         ></video>
         {/* <Link to="/"> */}
         <a

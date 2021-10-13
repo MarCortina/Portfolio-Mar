@@ -11,11 +11,11 @@ const LandingComic = () => {
       <Window>
         <video 
             className={Styles.video}
+            src={LandingVideo}
             autoPlay
             loop
             muted
             playsInline
-            src={LandingVideo}
         />
          {/* <Link to="/"> */}
          <a className={Styles.linkVideo} href="https://landing-comic.vercel.app/">
