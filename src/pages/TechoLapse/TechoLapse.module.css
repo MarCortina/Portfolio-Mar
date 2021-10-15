@@ -9,3 +9,8 @@
 .linkVideo {
     font-size: 0.8em;
 }
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}

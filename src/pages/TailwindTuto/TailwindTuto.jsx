@@ -17,14 +17,24 @@ const TailwindTuto = () => {
           loop
           muted
         ></video>
-        {/* <Link to="/"> */}
-        <a
-          className={Styles.linkVideo}
-          href="https://mar-next-tail.vercel.app/"
-        >
-          <span className={Styles.linkVideo}>visit the web</span>
-        </a>
-        {/* </Link> */}
+        <div className={Styles.buttonContainer}>
+          {/* <Link to="/"> */}
+          <a
+            className={Styles.linkVideo}
+            href="https://mar-next-tail.vercel.app/"
+          >
+            <span className={Styles.linkVideo}>see details</span>
+          </a>
+          {/* </Link> */}
+          {/* <Link to="/"> */}
+          <a
+            className={Styles.linkVideo}
+            href="https://mar-next-tail.vercel.app/"
+          >
+            <span className={Styles.linkVideo}>visit the web</span>
+          </a>
+          {/* </Link> */}
+        </div>
       </Window>
     </div>
   );

@@ -17,7 +17,7 @@ const Projects = () => {
       <span>
         <h2>Projects</h2>
       </span>
-      <div className={Styles.Projects}>
+      <div className={Styles.ProjectsContainer}>
         <TechoDonation />
         <LandingComic />
         <TailwindTuto />
