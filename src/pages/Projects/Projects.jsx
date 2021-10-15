@@ -18,15 +18,15 @@ const Projects = () => {
         <h2>Projects</h2>
       </span>
       <div className={Styles.ProjectsContainer}>
-        <TechoDonation />
-        <LandingComic />
-        <TailwindTuto />
-        <TechoAdmin />
-        <TechoLapse />
+        <ChallengeALkemy />
         <Spirit />
         <Axies />
+        <TechoLapse />
         <ElMayorista />
-        <ChallengeALkemy />
+        <TechoAdmin />
+        <TailwindTuto />
+        <LandingComic />
+        <TechoDonation />
       </div>
     </div>
   );
