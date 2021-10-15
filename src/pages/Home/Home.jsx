@@ -10,7 +10,7 @@ const Home = () => {
       <h1>Hello World...</h1>
       <span>here my projects</span>
       <Projects />
-      <About />
+      {/* <About /> */}
       <Contact />
     </div>
   );
