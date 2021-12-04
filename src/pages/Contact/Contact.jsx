@@ -1,21 +1,47 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import swal from "sweetalert";
 
+import PDF from "../../assets/Mar_Cortina_CV.pdf";
 import Styles from "./Contact.module.css";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const Contact = () => {
-
-  const onCopy = () => {
-    swal("marmica24@hotmail Copied to clipboard");
+  const onCopy = (value) => {
+    swal(`Copied, ${value}`);
+    setTimeout(() => {
+      swal.close();
+    }, 5000);
   };
 
   return (
-    <div>
-      <FaGithub className={Styles.icon} size="2em" color="black" />
+    <div className={Styles.contactContainer}>
+      <a href="https://github.com/MarCortina">
+        <FaGithub
+          className={Styles.icon}
+          size="2em"
+          color="black"
+          value="https://github.com/MarCortina"
+        />
+      </a>
+
+      <a href="https://www.linkedin.com/in/mar-cortina/">
+        <FaLinkedin
+          className={Styles.icon}
+          size="2em"
+          color="black"
+          value="https://www.linkedin.com/in/marcortina/"
+        />
+      </a>
+      <a href={PDF} className={Styles.pdf} target="blank">
+        <FaFilePdf
+          className={Styles.icon}
+          size="2em"
+          color="black"
+          value={PDF}
+        />
+      </a>
       <CopyToClipboard text="marmica24@hotmail.com" onCopy={onCopy}>
         <FiMail
           className={Styles.icon}

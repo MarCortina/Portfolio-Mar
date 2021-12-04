@@ -1,6 +1,6 @@
-import React, {useState, useEffect}from "react";
-import { Route, Switch} from "react-router-dom";
-import swal from 'sweetalert';
+import React, { useState, useEffect } from "react";
+import { Route, Switch } from "react-router-dom";
+import swal from "sweetalert";
 
 import Home from "./pages/Home/Home";
 import "./App.css";
@@ -14,13 +14,14 @@ function App() {
   const handleClick = () => {
     swal("this site is in process");
   };
-useEffect(() => {
-  setShowAlert(true);
-}, []);
+  useEffect(() => {
+    setShowAlert(true);
+  }, []);
   return (
-    <Layout>
-      {/* <button onClick={handleClick}>Click me</button> */}
-      {showAlert && handleClick()}
+    <div className="App">
+      <Layout>
+        {/* <button onClick={handleClick}>Click me</button> */}
+        {showAlert && handleClick()}
         {/* <div className="App"> */}
         {/* <Switch> */}
         <Route exact path="/" render={() => <Home />} />
@@ -28,8 +29,9 @@ useEffect(() => {
         <Route exact path="/about" render={() => <About />} />
         <Route exact path="/contact" render={() => <Contact />} />
         {/* </Switch> */}
-    {/* </div> */}
+        {/* </div> */}
       </Layout>
+    </div>
   );
 }
 

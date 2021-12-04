@@ -7,7 +7,9 @@ import AlkemyVideo from "../../assets/Challenge_Alkemy.mp4";
 const ChallengeALkemy = () => {
   return (
     <div>
-      <h3>Alkemy React Challenge</h3>
+      <div className="title">
+        <h3>Alkemy React Challenge</h3>
+      </div>
       <Window>
         <video src={AlkemyVideo} className={Styles.video} autoPlay loop muted />
         <div className={Styles.buttonContainer}>
