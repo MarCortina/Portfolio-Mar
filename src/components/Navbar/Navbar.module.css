@@ -1,21 +1,27 @@
 .navbarContainer {
     display: flex;
     align-items: center;
-    max-width: 1440px;
+    max-width: 1440 px;
     width: 100%;
-    padding: 0px 20px;
+    /* padding: 0
+px
+ 20
+px
+; */
     margin: 0 auto;
     /* background-color: #596275; */
     flex-direction: row;
-    border-bottom: 2px solid #596275;
+    border-bottom: 2 px solid #596275;
 }
 
 .dataList {
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-around;
-    padding: 0 0 10px 0;
+    padding: 0 0 10 px 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .nameTitle {
@@ -31,8 +37,6 @@
     /* text-shadow: 1px 1px 2px rgb(131, 117, 117); */
 }
 
-.linkListNavbar {
-}
+.linkListNavbar {}
 
-.linkListNavbar:hover {
-}
+.linkListNavbar:hover {}

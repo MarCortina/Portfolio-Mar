@@ -8,6 +8,7 @@ import Layout from "./pages/Layout/Layout";
 import Projects from "./pages/Projects/Projects";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
+import ChallengeALkemy from "./pages/ChallengeAlkemy/ChallengeALkemy";
 
 function App() {
   const [showAlert, setShowAlert] = useState(false);
@@ -28,6 +29,12 @@ function App() {
         <Route exact path="/projects" render={() => <Projects />} />
         <Route exact path="/about" render={() => <About />} />
         <Route exact path="/contact" render={() => <Contact />} />
+        <Route
+          exact
+          path="/alkemy_challenge"
+          render={() => <ChallengeALkemy />}
+        />
+
         {/* </Switch> */}
         {/* </div> */}
       </Layout>

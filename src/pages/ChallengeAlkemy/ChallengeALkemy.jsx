@@ -13,11 +13,9 @@ const ChallengeALkemy = () => {
       <Window>
         <video src={AlkemyVideo} className={Styles.video} autoPlay loop muted />
         <div className={Styles.buttonContainer}>
-          {/* <Link to="/"> */}
-          <a className={Styles.linkVideo} href="">
+          <Link to={"/alkemy_challenge"} className={Styles.linkVideo}>
             <span className={Styles.linkVideo}>see details</span>
-          </a>
-          {/* </Link> */}
+          </Link>
         </div>
       </Window>
     </div>
