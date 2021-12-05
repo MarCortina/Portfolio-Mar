@@ -5,9 +5,9 @@
     width: 100%;
     padding: 0px 20px;
     margin: 0 auto;
-    background-color: #596275;
+    /* background-color: #596275; */
     flex-direction: row;
-    flex-wrap: wrap;
+    border-bottom: 2px solid #596275;
 }
 
 .dataList {
@@ -29,4 +29,10 @@
     font-size: 1em;
     /* text-shadow: 0 1px 0 rgb(29, 23, 23); */
     /* text-shadow: 1px 1px 2px rgb(131, 117, 117); */
+}
+
+.linkListNavbar {
+}
+
+.linkListNavbar:hover {
 }
