@@ -1,10 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+
 import Styles from "./ChallengeAlkemy.module.css";
+
 import Window from "../../components/Windows/Window";
 import AlkemyVideo from "../../assets/Challenge_Alkemy.mp4";
 
 const ChallengeALkemy = () => {
+  const location = useLocation().pathname
+  console.log(location);
+ 
   return (
     <div>
       <div className="title">

@@ -41,8 +41,8 @@ a {
 
 a:hover {
   font-weight: 500;
-  border: 2px solid #c44569;
-  background-color: #c44569;
+  /* border: 2px solid #c44569; */
+  /* background-color: #c44569; */
   border-radius: 50%;
   color: #fff;
 }

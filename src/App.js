@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 import swal from "sweetalert";
 
 import Home from "./pages/Home/Home";
@@ -15,16 +15,16 @@ function App() {
   const handleClick = () => {
     swal("this site is in process");
   };
+
   useEffect(() => {
     setShowAlert(true);
   }, []);
+
   return (
     <div className="App">
       <Layout>
-        {/* <button onClick={handleClick}>Click me</button> */}
         {showAlert && handleClick()}
-        {/* <div className="App"> */}
-        {/* <Switch> */}
+
         <Route exact path="/" render={() => <Home />} />
         <Route exact path="/projects" render={() => <Projects />} />
         <Route exact path="/about" render={() => <About />} />
@@ -34,9 +34,6 @@ function App() {
           path="/alkemy_challenge"
           render={() => <ChallengeALkemy />}
         />
-
-        {/* </Switch> */}
-        {/* </div> */}
       </Layout>
     </div>
   );

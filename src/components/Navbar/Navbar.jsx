@@ -10,16 +10,16 @@ const Navbar = () => {
       </div>
       <div className={Styles.dataList}>
         <div className={Styles.itemList}>
-          <Link to="/" className={Styles.linkListNavbar}>Home</Link>
+          <Link to="/" className={Styles.btn_one}><span>Home</span></Link>
         </div>
         <div className={Styles.itemList}>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects"className={Styles.btn_one}><span>Projects</span></Link>
         </div>
         <div className={Styles.itemList}>
-          <Link to="/about">About</Link>
+          <Link to="/about"className={Styles.btn_one}><span>About</span></Link>
         </div>
         <div className={Styles.itemList}>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact"className={Styles.btn_one}><span>Contact</span></Link>
         </div>
       </div>
     </div>

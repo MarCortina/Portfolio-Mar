@@ -1,7 +1,8 @@
 .footerContainer {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #596275;
     font-size: 18px;
-    /* width: 100%; */
+    width: 100%;
     font-weight: lighter;
+    border-bottom: 1px solid #c44569;
 }
