@@ -1,9 +1,11 @@
 .windowContainer {
     width: 300px;
+    height: 250px;
     background-color: #546de5;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     padding: 10px;
     margin: 0 auto;
+    margin-bottom: 20px;
 
 }

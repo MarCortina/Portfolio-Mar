@@ -13,6 +13,11 @@ body {
   align-items: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+
+}
+
+::-webkit-scrollbar {
+  display: none
 }
 
 code {
@@ -48,7 +53,7 @@ a:hover {
 }
 
 .title {
-  width: 245px;
+  /* width: 245px; */
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;

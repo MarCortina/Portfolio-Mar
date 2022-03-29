@@ -6,6 +6,8 @@ import Projects from "../Projects/Projects";
 const Home = () => {
   return (
     <div className={Styles.homeContainer}>
+   
+
       <h1>Hello World...</h1>
       <Projects />
      

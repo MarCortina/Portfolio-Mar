@@ -9,6 +9,14 @@ import Projects from "./pages/Projects/Projects";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import ChallengeALkemy from "./pages/ChallengeAlkemy/ChallengeALkemy";
+import SpiritSwapLB from "./pages/SpiritSwapLB/Spirit";
+import Axies from "./pages/AxiesTeam/Axies";
+import LandingComic from "./pages/LandingComic/LandingComic";
+import TechoLapse from "./pages/TechoLapse/TechoLapse";
+import TechoAdmin from "./pages/TechoAdmin/TechoAdmin";
+import TechoDonation from "./pages/Techo_Donation/TechoDonation";
+import ElMayorista from "./pages/ElMayorista/ElMayorista";
+import TailwindTuto from "./pages/TailwindTuto/TailwindTuto";
 
 function App() {
   const [showAlert, setShowAlert] = useState(false);
@@ -34,6 +42,15 @@ function App() {
           path="/alkemy_challenge"
           render={() => <ChallengeALkemy />}
         />
+        <Route exact path="/spirit_swap" render={() => <SpiritSwapLB />} />
+        <Route exact path="/axies_team" render={() => <Axies />} />
+        <Route exact path="/techo_lapse" render={() => <TechoLapse />} />
+        <Route exact path="/techo_admin" render={() => <TechoAdmin />} />
+        <Route exact path="/techo_donation" render={() => <TechoDonation />} />
+        <Route exact path="/landing_comic" render={() => <LandingComic />} />
+        <Route exact path="/el_mayorista" render={() => <ElMayorista/>} />
+        <Route exact path="/tailwind_tuto" render={() => <TailwindTuto />} />
+
       </Layout>
     </div>
   );
